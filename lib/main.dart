@@ -63,6 +63,13 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.all(14.0),
+                child: TextButton(onPressed: (){}, child: Text('Create an account',
+                 style: TextStyle(color: Colors.deepPurpleAccent[700])),
+                             style: TextButton.styleFrom(
+                    foregroundColor: Colors.white)),
+              )
               
             ],
           ),
